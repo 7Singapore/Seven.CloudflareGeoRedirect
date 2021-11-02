@@ -1,0 +1,7 @@
+Neos:
+  Flow:
+    http:
+      middlewares:
+        redirect:
+          position: 'after routing'
+          middleware: 'Seven\CloudflareGeoRedirect\RedirectMiddleware'
